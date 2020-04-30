@@ -1,4 +1,72 @@
-.fixed-bottom {
+.fixed {
   position: fixed;
-  bottom: 0;
+
+  &-top {
+    position: fixed;
+    top: 0;
+  }
+  &-right {
+    position: fixed;
+    right: 0;
+  }
+  &-bottom {
+    position: fixed;
+    bottom: 0;
+  }
+  &-left {
+    position: fixed;
+    left: 0;
+  }
+  &-auto {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+  }
+}
+
+.cursor {
+  cursor: pointer;
+}
+
+.cursor-move {
+  cursor: move;
+}
+
+.display-none {
+  display: none;
+}
+
+.no-select {
+  /* autoprefixer: ignore next */
+  -moz-user-select: none;
+  /* autoprefixer: ignore next */
+  -khtml-user-select: none;
+  user-select: none;
+}
+
+/* autoprefixer: ignore next */
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+  width: 0;
+}
+.no-scrollbar {
+  /* autoprefixer: ignore next */
+  overflow: -moz-scrollbars-none;
+  /* autoprefixer: ignore next */
+  -ms-overflow-style: none;
+  /* autoprefixer: ignore next */
+  -webkit-overflow-scrolling: touch;
+}
+
+.clearfix:after {
+  content: '.';
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}
+.clearfix {
+  *zoom: 1;
 }
