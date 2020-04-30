@@ -1,13 +1,11 @@
 <template>
-  <div id="app">
-    <router-view></router-view>
+  <div>
+    <h1>主页</h1>
   </div>
 </template>
 
 <script>
-export default {
-  name: 'app'
-}
+export default {}
 </script>
 
 <style rel="stylesheet/scss" lang="scss" scoped>
