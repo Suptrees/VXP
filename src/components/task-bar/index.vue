@@ -19,4 +19,3 @@ export default {
   background-image: url("~@/assets/images/taskbar.png");
 }
 </style>
- 
