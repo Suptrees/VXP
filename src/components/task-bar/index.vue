@@ -15,7 +15,8 @@ export default {
 <style rel="stylesheet/scss" lang="scss" scoped>
 .task-bar {
   width: 100%;
-  height: 30px;
-  background-color: $color-primary;
+  height: 34px;
+  background-image: url("~@/assets/images/taskbar.png");
 }
 </style>
+ 
